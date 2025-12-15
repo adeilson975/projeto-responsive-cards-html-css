@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: blanchedalmond;
+}
+/*Configuração do comportamento do card em tela grande e pequena*/
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+/* Largura do card,fundo,margem entre os cards etc*/
+.card {
+    width:250px;
+    background-color:blueviolet;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow:0px 2px 4px rgba(0, 0,0,0.2);
+    margin: 20px;
+}
+/*A imagem vai ocupar 100% do card e  height:auto--> a altura de um elemento deve ajustar-se automaticamente para acomodar todo o seu conteúdo, crescendo ou diminuindo conforme necessário*/
+.card img {
+    width:100%;
+    height: auto;
+}
+/*espaçamento de 16px entre os elementos do card-content*/
+.card-content {
+    padding: 16px;
+}
+/*tamanho da fonte do h3 e margem inferior do h3*/
+.card-content h3 {
+    font-size:15px;
+    margin-bottom: 8px;
+}
+/*cor da fonte do paragrafo do card-content e tamanho*/
+.card-content p {
+    color:#fff;
+    font-size: 15px;
+    line-height:1.3;
+}
+/*configuração do botao "leia mais". */
+.card-content .btn {
+    display: inline-block;
+    padding:8px 16px;
+    background-color:#333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top:16px;
+    color:#fff;
+}
